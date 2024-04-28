@@ -1,0 +1,390 @@
+[
+    {
+        "Id": 1,
+        "Name": "sudarnet-ghost",
+        "Type": 1,
+        "EndpointId": 1,
+        "SwarmId": "zcnxn1rvr9jd3z9wo04zw3rme",
+        "EntryPoint": "sudarnet-ghost.yml",
+        "Env": [],
+        "ResourceControl": {
+            "Id": 1,
+            "ResourceId": "1_sudarnet-ghost",
+            "SubResourceIds": [],
+            "Type": 6,
+            "UserAccesses": [],
+            "TeamAccesses": [],
+            "Public": false,
+            "AdministratorsOnly": true,
+            "System": false
+        },
+        "Status": 1,
+        "ProjectPath": "/data/compose/1",
+        "CreationDate": 1709712852,
+        "CreatedBy": "asudarsanan-admin",
+        "UpdateDate": 0,
+        "UpdatedBy": "",
+        "AdditionalFiles": [],
+        "AutoUpdate": {
+            "Interval": "5m",
+            "Webhook": "",
+            "JobID": "1",
+            "ForceUpdate": false,
+            "ForcePullImage": false
+        },
+        "Option": null,
+        "GitConfig": {
+            "URL": "https://github.com/sudarnet/swarm-stack.git",
+            "ReferenceName": "",
+            "ConfigFilePath": "sudarnet-ghost.yml",
+            "Authentication": {
+                "Username": "asudarsanan",
+                "Password": "",
+                "GitCredentialID": 0
+            },
+            "ConfigHash": "f6eff7751a31c2a11366d65e6e87e564d893d142",
+            "TLSSkipVerify": false
+        },
+        "FromAppTemplate": false,
+        "Namespace": "",
+        "IsComposeFormat": false
+    },
+    {
+        "Id": 2,
+        "Name": "sudarnet-vaultwarden",
+        "Type": 1,
+        "EndpointId": 1,
+        "SwarmId": "zcnxn1rvr9jd3z9wo04zw3rme",
+        "EntryPoint": "sudarnet-vault.yml",
+        "Env": [],
+        "ResourceControl": {
+            "Id": 2,
+            "ResourceId": "1_sudarnet-vaultwarden",
+            "SubResourceIds": [],
+            "Type": 6,
+            "UserAccesses": [],
+            "TeamAccesses": [],
+            "Public": false,
+            "AdministratorsOnly": true,
+            "System": false
+        },
+        "Status": 1,
+        "ProjectPath": "/data/compose/2",
+        "CreationDate": 1709713271,
+        "CreatedBy": "asudarsanan-admin",
+        "UpdateDate": 0,
+        "UpdatedBy": "",
+        "AdditionalFiles": [],
+        "AutoUpdate": null,
+        "Option": null,
+        "GitConfig": {
+            "URL": "https://github.com/sudarnet/swarm-stack.git",
+            "ReferenceName": "",
+            "ConfigFilePath": "sudarnet-vault.yml",
+            "Authentication": {
+                "Username": "asudarsanan",
+                "Password": "",
+                "GitCredentialID": 0
+            },
+            "ConfigHash": "f6eff7751a31c2a11366d65e6e87e564d893d142",
+            "TLSSkipVerify": false
+        },
+        "FromAppTemplate": false,
+        "Namespace": "",
+        "IsComposeFormat": false
+    },
+    {
+        "Id": 3,
+        "Name": "sudarnet-couchdb",
+        "Type": 1,
+        "EndpointId": 1,
+        "SwarmId": "zcnxn1rvr9jd3z9wo04zw3rme",
+        "EntryPoint": "sudarnet-couchdb.yml",
+        "Env": [],
+        "ResourceControl": {
+            "Id": 3,
+            "ResourceId": "1_sudarnet-couchdb",
+            "SubResourceIds": [],
+            "Type": 6,
+            "UserAccesses": [],
+            "TeamAccesses": [],
+            "Public": false,
+            "AdministratorsOnly": true,
+            "System": false
+        },
+        "Status": 1,
+        "ProjectPath": "/data/compose/3",
+        "CreationDate": 1709713416,
+        "CreatedBy": "asudarsanan-admin",
+        "UpdateDate": 0,
+        "UpdatedBy": "",
+        "AdditionalFiles": [],
+        "AutoUpdate": null,
+        "Option": null,
+        "GitConfig": {
+            "URL": "https://github.com/sudarnet/swarm-stack.git",
+            "ReferenceName": "",
+            "ConfigFilePath": "sudarnet-couchdb.yml",
+            "Authentication": {
+                "Username": "asudarsanan",
+                "Password": "",
+                "GitCredentialID": 0
+            },
+            "ConfigHash": "f6eff7751a31c2a11366d65e6e87e564d893d142",
+            "TLSSkipVerify": false
+        },
+        "FromAppTemplate": false,
+        "Namespace": "",
+        "IsComposeFormat": false
+    },
+    {
+        "Id": 4,
+        "Name": "sudarnet-audiobooks",
+        "Type": 1,
+        "EndpointId": 1,
+        "SwarmId": "zcnxn1rvr9jd3z9wo04zw3rme",
+        "EntryPoint": "sudarnet-audiobooks.yml",
+        "Env": [],
+        "ResourceControl": {
+            "Id": 4,
+            "ResourceId": "1_sudarnet-audiobooks",
+            "SubResourceIds": [],
+            "Type": 6,
+            "UserAccesses": [],
+            "TeamAccesses": [],
+            "Public": false,
+            "AdministratorsOnly": true,
+            "System": false
+        },
+        "Status": 1,
+        "ProjectPath": "/data/compose/4",
+        "CreationDate": 1709713642,
+        "CreatedBy": "asudarsanan-admin",
+        "UpdateDate": 0,
+        "UpdatedBy": "",
+        "AdditionalFiles": [],
+        "AutoUpdate": {
+            "Interval": "5m",
+            "Webhook": "",
+            "JobID": "2",
+            "ForceUpdate": false,
+            "ForcePullImage": false
+        },
+        "Option": null,
+        "GitConfig": {
+            "URL": "https://github.com/sudarnet/swarm-stack.git",
+            "ReferenceName": "",
+            "ConfigFilePath": "sudarnet-audiobooks.yml",
+            "Authentication": {
+                "Username": "asudarsanan",
+                "Password": "",
+                "GitCredentialID": 0
+            },
+            "ConfigHash": "f6eff7751a31c2a11366d65e6e87e564d893d142",
+            "TLSSkipVerify": false
+        },
+        "FromAppTemplate": false,
+        "Namespace": "",
+        "IsComposeFormat": false
+    },
+    {
+        "Id": 6,
+        "Name": "sudarnet-drone",
+        "Type": 1,
+        "EndpointId": 1,
+        "SwarmId": "zcnxn1rvr9jd3z9wo04zw3rme",
+        "EntryPoint": "sudarnet-drone.yaml",
+        "Env": [],
+        "ResourceControl": {
+            "Id": 5,
+            "ResourceId": "1_sudarnet-drone",
+            "SubResourceIds": [],
+            "Type": 6,
+            "UserAccesses": [],
+            "TeamAccesses": [],
+            "Public": false,
+            "AdministratorsOnly": true,
+            "System": false
+        },
+        "Status": 1,
+        "ProjectPath": "/data/compose/6",
+        "CreationDate": 1709713796,
+        "CreatedBy": "asudarsanan-admin",
+        "UpdateDate": 0,
+        "UpdatedBy": "",
+        "AdditionalFiles": [],
+        "AutoUpdate": {
+            "Interval": "5m",
+            "Webhook": "",
+            "JobID": "3",
+            "ForceUpdate": false,
+            "ForcePullImage": false
+        },
+        "Option": null,
+        "GitConfig": {
+            "URL": "https://github.com/sudarnet/swarm-stack.git",
+            "ReferenceName": "",
+            "ConfigFilePath": "sudarnet-drone.yaml",
+            "Authentication": {
+                "Username": "asudarsanan",
+                "Password": "",
+                "GitCredentialID": 0
+            },
+            "ConfigHash": "f6eff7751a31c2a11366d65e6e87e564d893d142",
+            "TLSSkipVerify": false
+        },
+        "FromAppTemplate": false,
+        "Namespace": "",
+        "IsComposeFormat": false
+    },
+    {
+        "Id": 7,
+        "Name": "sudarnet-dashy",
+        "Type": 1,
+        "EndpointId": 1,
+        "SwarmId": "zcnxn1rvr9jd3z9wo04zw3rme",
+        "EntryPoint": "sudarnet-dashy.yml",
+        "Env": [],
+        "ResourceControl": {
+            "Id": 6,
+            "ResourceId": "1_sudarnet-dashy",
+            "SubResourceIds": [],
+            "Type": 6,
+            "UserAccesses": [],
+            "TeamAccesses": [],
+            "Public": false,
+            "AdministratorsOnly": true,
+            "System": false
+        },
+        "Status": 1,
+        "ProjectPath": "/data/compose/7",
+        "CreationDate": 1709714526,
+        "CreatedBy": "asudarsanan-admin",
+        "UpdateDate": 0,
+        "UpdatedBy": "",
+        "AdditionalFiles": [],
+        "AutoUpdate": {
+            "Interval": "5m",
+            "Webhook": "",
+            "JobID": "4",
+            "ForceUpdate": false,
+            "ForcePullImage": false
+        },
+        "Option": null,
+        "GitConfig": {
+            "URL": "https://github.com/sudarnet/swarm-stack.git",
+            "ReferenceName": "",
+            "ConfigFilePath": "sudarnet-dashy.yml",
+            "Authentication": {
+                "Username": "asudarsanan",
+                "Password": "",
+                "GitCredentialID": 0
+            },
+            "ConfigHash": "f6eff7751a31c2a11366d65e6e87e564d893d142",
+            "TLSSkipVerify": false
+        },
+        "FromAppTemplate": false,
+        "Namespace": "",
+        "IsComposeFormat": false
+    },
+    {
+        "Id": 8,
+        "Name": "sudarnet-wiki",
+        "Type": 1,
+        "EndpointId": 1,
+        "SwarmId": "zcnxn1rvr9jd3z9wo04zw3rme",
+        "EntryPoint": "sudarnet-wiki.yml",
+        "Env": [],
+        "ResourceControl": {
+            "Id": 7,
+            "ResourceId": "1_sudarnet-wiki",
+            "SubResourceIds": [],
+            "Type": 6,
+            "UserAccesses": [],
+            "TeamAccesses": [],
+            "Public": false,
+            "AdministratorsOnly": true,
+            "System": false
+        },
+        "Status": 1,
+        "ProjectPath": "/data/compose/8",
+        "CreationDate": 1709714602,
+        "CreatedBy": "asudarsanan-admin",
+        "UpdateDate": 0,
+        "UpdatedBy": "",
+        "AdditionalFiles": [],
+        "AutoUpdate": {
+            "Interval": "5m",
+            "Webhook": "",
+            "JobID": "5",
+            "ForceUpdate": false,
+            "ForcePullImage": false
+        },
+        "Option": null,
+        "GitConfig": {
+            "URL": "https://github.com/sudarnet/swarm-stack.git",
+            "ReferenceName": "",
+            "ConfigFilePath": "sudarnet-wiki.yml",
+            "Authentication": {
+                "Username": "asudarsanan",
+                "Password": "",
+                "GitCredentialID": 0
+            },
+            "ConfigHash": "f6eff7751a31c2a11366d65e6e87e564d893d142",
+            "TLSSkipVerify": false
+        },
+        "FromAppTemplate": false,
+        "Namespace": "",
+        "IsComposeFormat": false
+    },
+    {
+        "Id": 9,
+        "Name": "sudarnet-outline",
+        "Type": 1,
+        "EndpointId": 1,
+        "SwarmId": "zcnxn1rvr9jd3z9wo04zw3rme",
+        "EntryPoint": "sudarnet-outline-docs.yml",
+        "Env": [],
+        "ResourceControl": {
+            "Id": 8,
+            "ResourceId": "1_sudarnet-outline",
+            "SubResourceIds": [],
+            "Type": 6,
+            "UserAccesses": [],
+            "TeamAccesses": [],
+            "Public": false,
+            "AdministratorsOnly": true,
+            "System": false
+        },
+        "Status": 2,
+        "ProjectPath": "/data/compose/9",
+        "CreationDate": 1711989960,
+        "CreatedBy": "asudarsanan-admin",
+        "UpdateDate": 0,
+        "UpdatedBy": "",
+        "AdditionalFiles": [],
+        "AutoUpdate": {
+            "Interval": "5m",
+            "Webhook": "",
+            "JobID": "",
+            "ForceUpdate": false,
+            "ForcePullImage": false
+        },
+        "Option": null,
+        "GitConfig": {
+            "URL": "https://github.com/sudarnet/swarm-stack.git",
+            "ReferenceName": "",
+            "ConfigFilePath": "sudarnet-outline-docs.yml",
+            "Authentication": {
+                "Username": "asudarsanan",
+                "Password": "",
+                "GitCredentialID": 0
+            },
+            "ConfigHash": "f6eff7751a31c2a11366d65e6e87e564d893d142",
+            "TLSSkipVerify": true
+        },
+        "FromAppTemplate": false,
+        "Namespace": "",
+        "IsComposeFormat": false
+    }
+]
