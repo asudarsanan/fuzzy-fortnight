@@ -32,7 +32,8 @@ func merger(str1 string, str2 string) string {
 	// fmt.Print(mergedList)
 	return strings.Join(mergedList, "")
 }
-func main() {
-	output := merger("asssdraaIndian", "aihuasnnthankappan") //adbecfdef
-	print(output)
-}
+
+// func main() {
+// 	output := merger("asssdraaIndian", "aihuasnnthankappan") //adbecfdef
+// 	print(output)
+// }
