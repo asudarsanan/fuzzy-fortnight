@@ -58,6 +58,6 @@ func optimisedPlatable(plots []int, newflowers int) bool {
 	return count >= newflowers
 }
 
-func main() {
-	fmt.Print(optimisedPlatable([]int{0}, 1))
-}
+// func main() {
+// 	fmt.Print(optimisedPlatable([]int{0}, 1))
+// }
