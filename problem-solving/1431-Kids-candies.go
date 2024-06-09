@@ -22,6 +22,7 @@ func candyDistribution(candies []int, extraCandies int) []bool {
 
 	return outputList
 }
-func main() {
-	fmt.Print(candyDistribution([]int{2, 3, 5, 1, 3}, 3))
-}
+
+// func main() {
+// 	fmt.Print(candyDistribution([]int{2, 3, 5, 1, 3}, 3))
+// }
