@@ -8,15 +8,15 @@ import (
 func reverseWords(s string) string {
 
 	splittedString := strings.Split(s, " ")
-	orginalString := make([]string, len(splittedString))
-	copy(orginalString, splittedString)
-	for i := 0; i < len(splittedString); i++ {
-		splittedString[i] = orginalString[len(splittedString)-1-i]
+	var output []string
+	for i := len(splittedString) - 1; i >= 0; i-- {
+		if len(splittedString[i]) != 0 {
+			output = append(output, splittedString[i])
+		}
 	}
-	fmt.Print(splittedString)
-	return strings.Join(splittedString, " ")
+	return strings.Join(output, " ")
 }
 func main() {
-	fmt.Print(reverseWords("Life Is Beauiful"))
+	fmt.Print(reverseWords(" Life Is    Beauiful "))
 
 }
