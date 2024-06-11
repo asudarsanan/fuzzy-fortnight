@@ -19,7 +19,7 @@ def extract_incoming_ips(log_file):
 
 
 def main():
-    file_name='sample.log'
+    file_name='resources/sample.log'
     extract_incoming_ips(file_name)
 
 if __name__ == "__main__":
