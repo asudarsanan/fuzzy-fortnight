@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strings"
 )
 
@@ -16,7 +15,8 @@ func reverseWords(s string) string {
 	}
 	return strings.Join(output, " ")
 }
-func main() {
-	fmt.Print(reverseWords(" Life Is    Beauiful "))
 
-}
+// func main() {
+// 	fmt.Print(reverseWords(" Life Is    Beauiful "))
+
+// }
