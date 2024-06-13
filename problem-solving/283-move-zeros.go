@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func moveZeros(nums []int) []int {
 	j := 0
 	n := len(nums)
@@ -20,6 +18,6 @@ func moveZeros(nums []int) []int {
 	return nums
 }
 
-func main() {
-	fmt.Print(moveZeros([]int{1, 0, 2, 0, 3}))
-}
+// func main() {
+// 	fmt.Print(moveZeros([]int{1, 0, 2, 0, 3}))
+// }
